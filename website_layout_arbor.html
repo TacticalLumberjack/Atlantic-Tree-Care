@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alantic Tree Care</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      background: white;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #2e7d32;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alantic Tree Care</h1>
+    <p>Professional Arbor Services – Locally Owned & Operated</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>We are a trusted tree care company based in your community, providing expert pruning, removals, stump grinding, and emergency services. With years of experience and all the right equipment, we serve residential and commercial clients safely and efficiently.</p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Tree Removal</li>
+        <li>Pruning & Shaping</li>
+        <li>Stump Grinding</li>
+        <li>Storm Damage Cleanup</li>
+        <li>Emergency Tree Services</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Request a Free Estimate</h2>
+      <form action="https://formspree.io/f/maylgrdq" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="address">Job Address</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="details">Describe the Work Needed</label>
+        <textarea id="details" name="details" rows="5"></textarea>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Call us today: (555) 123-4567 | Email: info@alantictreecare.com</p>
+    <p>&copy; 2025 Alantic Tree Care</p>
+  </footer>
+</body>
+</html>
